@@ -1,0 +1,12 @@
+var fs = require('fs');
+var path = require('path');
+
+var pathToFile = process.argv[2];
+var extension = process.argv[3];
+
+var fileBuffer = fs.readdir(pathToFile, function callback(err, fileNames) {
+		for (var i = 0; i < fileNames.length; i++) {
+			if(fileNames[i].extname()
+		};
+
+});
